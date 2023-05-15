@@ -2,8 +2,9 @@
   "name": "task-app",
   "version": "0.0.0",
   "scripts": {
-
+    "ng": "ng",
     "start":"node index.js",
+     "watch": "ng build --watch --configuration development",
     "json:server": "json-server --watch db.json",
    
   },
